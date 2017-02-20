@@ -19,7 +19,7 @@ def display_inventory(inventory):
     print('Inventory: ' + str(stuff))
     item_total = 0
     for k, v in inventory.items():
-        item_total = item_total + 1
+        item_total += 1
     print('Total number of unique items: ' + str(item_total))
 
 def add_to_inventory(stuff, added_items):
